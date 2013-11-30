@@ -1,0 +1,3 @@
+[Thumbnailer Entry]
+Exec=@CMAKE_INSTALL_PREFIX@/bin/opk-thumbnailer %i %o
+MimeType=application/octet-stream;
