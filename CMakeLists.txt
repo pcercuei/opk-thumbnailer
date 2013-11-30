@@ -14,7 +14,7 @@ include_directories(${LIBOPK_INCLUDE_DIRS})
 
 set(THUMB_THUMBNAILER ${CMAKE_CURRENT_BINARY_DIR}/opk.thumbnailer)
 configure_file(opk.thumbnailer.cmakein ${THUMB_THUMBNAILER} @ONLY)
-install(FILES ${THUMB_THUMBNAILER} DESTINATION "${CMAKE_INSTALL_PREFIX}/share/thumbnails")
+install(FILES ${THUMB_THUMBNAILER} DESTINATION "${CMAKE_INSTALL_PREFIX}/share/thumbnailers")
 
 set(THUMB_CFILES opk-thumbnailer.c)
 
